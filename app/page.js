@@ -31,7 +31,7 @@ const page = ()=>{
         <h4 className="text-2xl font-semibold">{t.task}</h4>
       </div>
       <button
-        onClick={()=>{
+        onClick={(i)=>{
           deleteHandler(i)
         }}
         className="bg-red-950 px-3 py-2 rounded text-2xl font-bold">
